@@ -30,4 +30,5 @@ fn main() {
 
 mod prelude {
     pub use crate::page;
+    pub use crate::util::{async_handler, sync_handler};
 }
